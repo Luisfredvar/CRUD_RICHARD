@@ -1,0 +1,35 @@
+
+@api = http://localhost:3002/roles
+
+GET {{api}}
+###
+
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombreRol":"Mantenimiento api"
+}
+
+###
+
+
+GET {{api}}/510
+
+### deletting 
+
+DELETE {{api}}/18
+
+###
+
+GET  {{api}}/count
+
+###
+
+PUT {{api}}/12
+Content-Type: application/json
+
+ {
+    "idRol": 12,
+    "nombreRol": "Vendedor-Comprador"
+  }
